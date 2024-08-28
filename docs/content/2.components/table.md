@@ -1,7 +1,7 @@
 ---
 description: 'Display data in a table.'
 links:
-  - label: GitHub
+  - label: 
     icon: i-simple-icons-github
     to: https://github.com/nuxt/ui/blob/dev/src/runtime/components/data/Table.vue
 ---
@@ -25,7 +25,7 @@ componentProps:
 Use the `columns` prop to configure which columns to display. It's an array of objects with the following properties:
 
 - `label` - The label to display in the table header. Can be changed through the `column-attribute` prop.
-- `key` - The field to display from the row data.
+- `key` - The field to display from the row datas.
 - `sortable` - Whether the column is sortable. Defaults to `false`.
 - `direction` - The sort direction to use on first click. Defaults to `asc`.
 - `class` - The class to apply to the column cells.
